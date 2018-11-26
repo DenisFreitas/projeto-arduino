@@ -1,5 +1,7 @@
 Obejtos necessários:
 
+***NECESSÁRIO TER SOLDA PARA SOLDAR OS PINOS NA TELA DE LCD***
+
 um arduino;
 uma protoboard;
 um display LDC do tipo JHD 162A de 16 colunas por duas linhas;
