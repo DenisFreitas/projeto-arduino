@@ -17,4 +17,4 @@ Obs:
 
 src/ deve conter os códigos desenvolvidos
 
-doc/ documentação do projeto
+docs/ detalhes de como executar o projeto.
