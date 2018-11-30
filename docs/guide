@@ -1,0 +1,40 @@
+**<h3>Obejtos necessários:</h3>**
+
+um arduino;
+um ethernet shield;
+uma protoboard;
+um sensor de temperatura LM35;
+fios jumper.
+
+
+
+Segue descrição de como deverão ser feitas as ligações entre o display LDC, o arduino,
+e os potenciômetros que controlam o brilho e o contrate do LCD.
+
+pino 1 do LCD ligado ao GND do arduino;
+pino 2 do LCD ligado ao 5V do arduino;
+pino 3 do LCD ligado ao pino central do primeiro potênciômetro (controle de contraste);
+pino 4 do LCD ligado ao pino digital 12 do arduino;
+pino 5 do LCD ligado ao GND do arduino;
+pino 6 do LCD ligado ao pino digital 11 do arduino;
+pino 11 do LCD ligado ao pino digital 5 do arduino;
+pino 12 do LCD ligado ao pino digital 4 do arduino;
+pino 13 do LCD ligado ao pino digital 3 do arduino;
+pino 14 do LCD ligado ao pino digital 2 do arduino;
+pino 15 do LCD ligado ao pino central do segundo potênciômetro (controle do brilho);
+pino 16 do LCD ligado ao GND do arduino.
+
+Mo sensor de temperatura :
+
+pino 5V do LM35 no 5V do arduino;
+pino central do LM35 no pino analógico A1 do arduino;
+pino GND do LM35 no GND do arduino.
+
+No sensor de luz:
+
+Uma perna do sensor de luz LDR no 5V do arduino;
+A outra perna  do sensor de luz LDR no pino analógico A0 e também no GND do arduino,
+a ligação no GND será feita através do resistor. Para detalhes veja o esquema do projeto.
+
+
+Após isso e de configurar o arduíno, ele irá funcionar.
