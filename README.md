@@ -1,11 +1,16 @@
-**<h2>Objetos Inteligentes Conectados 2º sem. 2018</h2>**
+**<h1>Objetos Inteligentes Conectados 2º sem. 2018</h1>**
 
-<h3>Turma 05J11</h3>
+<h3>Turma 05J11
 
-Projeto: "Sensor de temperatura e de luminosidade"
+Projeto: "Termômetro"
+</h3>
+
+<h4>
 Integrantes do grupo:
 
 Denis Augusto de Freitas TIA: 31543383
+
+</h4>
 
 Descrição resumida do projeto
 
