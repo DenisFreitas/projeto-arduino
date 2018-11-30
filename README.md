@@ -14,10 +14,10 @@ Denis Augusto de Freitas TIA: 31543383
 
 Descrição resumida do projeto
 
-Um projeto utilizando sensor para medir temperatura e outro para luminosidade, potenciometros para aumentar o contraste e parar aumentar o brilho da tela lcd, na qual mostra a temperatura e luminosidade.
+Utilizando um sensor de temperatura e uma plataforma web, mostraremos a temperatura ambiente em uma pagina web.
 
 Obs:
 
 src/ deve conter os códigos desenvolvidos
 
-docs/ detalhes de como executar o projeto.
+docs/ detalhes do projeto.
