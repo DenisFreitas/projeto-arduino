@@ -1,8 +1,6 @@
 **<h2>Objetos Inteligentes Conectados 2º sem. 2018</h2>**
 
-
-
-Turma 05J11
+<h3>Turma 05J11<h3>
 
 Projeto: "Sensor de temperatura e de luminosidade"
 Integrantes do grupo:
