@@ -1,4 +1,4 @@
-**Obejtos necessários:**
+ Obejtos necessários:
 
 um arduino;
 um ethernet shield;
@@ -8,33 +8,34 @@ fios jumper.
 
 
 
-Segue descrição de como deverão ser feitas as ligações entre o display LDC, o arduino,
-e os potenciômetros que controlam o brilho e o contrate do LCD.
+Segue descrição de como deverão ser feitas as ligações entre o arduino (ethernet shield) com a protoboard e o sensor lm35.
 
-pino 1 do LCD ligado ao GND do arduino;
-pino 2 do LCD ligado ao 5V do arduino;
-pino 3 do LCD ligado ao pino central do primeiro potênciômetro (controle de contraste);
-pino 4 do LCD ligado ao pino digital 12 do arduino;
-pino 5 do LCD ligado ao GND do arduino;
-pino 6 do LCD ligado ao pino digital 11 do arduino;
-pino 11 do LCD ligado ao pino digital 5 do arduino;
-pino 12 do LCD ligado ao pino digital 4 do arduino;
-pino 13 do LCD ligado ao pino digital 3 do arduino;
-pino 14 do LCD ligado ao pino digital 2 do arduino;
-pino 15 do LCD ligado ao pino central do segundo potênciômetro (controle do brilho);
-pino 16 do LCD ligado ao GND do arduino.
+pino 1 do sensor lm35 ligado ao GND do arduino;
+pino 2 do sensor lm35 a entrada a5;
+pino 3 do sensor lm35 ligado nos 5v;
 
-Mo sensor de temperatura :
+Devemos nos cadastrar no site https://grovestreams.com/developers/getting_started_arduino_temp.html pois nele vamos setar
+algumas configurações no arduino relacionadas com o site para que a temperatura fique disponível para nós.
 
-pino 5V do LM35 no 5V do arduino;
-pino central do LM35 no pino analógico A1 do arduino;
-pino GND do LM35 no GND do arduino.
+Criar uma Organization, relacionando a configuração dessa plataforma a sensor de temperatura arduino.
 
-No sensor de luz:
+1. Digite um nome para a nova organização. Pode ser qualquer nome. 
+2. Expanda a seção Avançado . 
+3. Certifique-se de que Criar com um blueprint do sistema esteja selecionado. 
+4. Selecione o blueprint do sistema Arduino Temperature . Isso criará sua organização com itens comumente usados, como unidades. 
+5. Clique em Criar Organização . 
 
-Uma perna do sensor de luz LDR no 5V do arduino;
-A outra perna  do sensor de luz LDR no pino analógico A0 e também no GND do arduino,
-a ligação no GND será feita através do resistor. Para detalhes veja o esquema do projeto.
+Após isso, vamos configurar o arduino, alterando no codigo :
+1. Mac local do groove.
+(Altere a variável mac em seu esboço. Os escudos mais recentes do Arduino Ethernet 
+possuem um adesivo com o endereço MAC na parte traseira.Use esse endereço. Se não houver adesivo, 
+um endereço MAC exclusivo para sua organização GroveStreams pode ser 
+gerado clicando no botão Ferramentas e selecionando Gerar endereço MAC no 
+Observation Studio da sua organização GroveStreams). 
 
-
-Após isso e de configurar o arduíno, ele irá funcionar.
+2.Mudar o API secreto do groove:
+(Para encontrar a sua chave API Segredo: 
+1. Selecione a Admin - chaves de API opção de menu e escolher a alimentação Coloque Key API (com direito a auto-inscrição) chave 
+2. Clique em Ver Chave Secreta
+3. Selecione e copie a chave secreta API para a área de transferência (Ctrl-c) e cole-o no seu esboço (Ctrl-v), 
+substituindo o valor gsApiKey existente.)
