@@ -14,7 +14,7 @@ Denis Augusto de Freitas TIA: 31543383
 
 Descrição resumida do projeto
 
-Utilizando um sensor de temperatura e uma plataforma web, mostraremos a temperatura ambiente em uma pagina web.
+Utilizando um sensor de temperatura e uma plataforma web, mostraremos a temperatura ambiente em uma pagina web (https://www.grovestreams.com/start.html).
 
 Obs:
 
